@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BackGround
+    uniqueID: 1058429107
+    locked: 0
+  - name: ElementPlaying
+    uniqueID: 3569931555
+    locked: 0
