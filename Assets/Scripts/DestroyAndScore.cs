@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DestroyIfTrigger : MonoBehaviour
+public class DestroyAndScore : MonoBehaviour
 {
-    [SerializeField]
     private int Score = 0;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -17,7 +16,6 @@ public class DestroyIfTrigger : MonoBehaviour
         }
     }
 
-    [SerializeField]
     private void OnGUI()
     {
         GUIStyle myStyle = new GUIStyle();
